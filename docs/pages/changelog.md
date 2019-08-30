@@ -3,6 +3,7 @@ layout: page
 title: Website changelog
 permalink: /changelog/
 ---
+
 # Website changelog
 
 Changes after completing Udacity project, in reverse chronological order. All changes have been committed with Git and pushed to GitHub.
@@ -11,10 +12,10 @@ Changes after completing Udacity project, in reverse chronological order. All ch
 
 Date: 20180406
 
-* Configure vscode with Markdown All in One and markdownlint
-* Reformat Markdown with suggestions from markdownlint
-* Re-do TOCs with Markdown All in One instead of DocToc
-* Update links to portfolio website GitHub
+- Configure vscode with Markdown All in One and markdownlint
+- Reformat Markdown with suggestions from markdownlint
+- Re-do TOCs with Markdown All in One instead of DocToc
+- Update links to portfolio website GitHub
 
 ## Update formatting and info
 

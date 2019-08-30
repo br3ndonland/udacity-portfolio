@@ -3,6 +3,7 @@ layout: page
 title: Methods
 permalink: /methods/
 ---
+
 # Portfolio website methods
 
 Udacity Full Stack Web Developer Nanodegree program
@@ -60,7 +61,7 @@ br3ndonland
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS.
 
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css- for additional custom styling.
+I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage _index.html_, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created _portfolio.css_ for additional custom styling.
 
 I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
 
@@ -92,12 +93,12 @@ I explored the different ways to use Bootstrap.
   - Bootstrap can then be called using the package manager.
 - Bootstrap is compiled and minified before use.
   - It is written using Sass (Syntactically Awesome Style Sheets), which must be converted to regular CSS before use.
-  - the *.min- extension indicates minified. This removes all unnecessary characters from source code.
+  - the _.min_ extension indicates minified. This removes all unnecessary characters from source code.
 
 ### Using Bootstrap
 
 - I used the Boostrap CDN option to link out to cached versions of the compiled CSS and JS, as described in the [Bootstrap getting started docs](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
-- I created an additional CSS file called *portfolio.css- to modify and extend the Bootstrap core CSS when necessary.
+- I created an additional CSS file called _portfolio.css_ to modify and extend the Bootstrap core CSS when necessary.
 - In addition to linking to the cached Bootstrap files, I downloaded the files for reference. I referred to the core Bootstrap CSS by opening in Sublime Text (bootstrap/bootstrap-4.0.0-beta/dist/css/bootstrap.css). It was also helpful to open the [Bootstrap template examples](https://getbootstrap.com/docs/4.0/examples/) in Chrome, then inspect with developer tools.
 - I frequently referred to the [Bootstrap docs](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and [Bootstrap GitHub readme](https://github.com/twbs/bootstrap).
 - **Bootstrap has a steep learning curve.**
@@ -118,7 +119,7 @@ See the **Rubric comparison** section of README.md for details.
 - I used some elements from [narrow-jumbotron](https://getbootstrap.com/docs/4.0/examples/narrow-jumbotron/).
 - I used [Google Fonts](https://fonts.google.com). Font weights are specified when referencing the CSS.
 - I kept code as concise as possible, and used CSS shorthand wherever possible.
-- *Responsive design:- Bootstrap is mobile-first, meaning that the website structure is designed for extra small devices (portrait phones, less than 576px), and then scaled up with `min-width` media queries. In this case, I had to design desktop-first. I had to design the site based on a desktop webpage mockup, then adjust it for smaller sizes. See below for design of each section. I added [Bootstrap responsive images](https://getbootstrap.com/docs/4.0/content/images/#responsive-images) to this Markdown file with HTML `img` tags, and the Bootstrap `class="img-fluid"`. I resized the screenshots to fit within 800x600 pixels.
+- _Responsive design:_ Bootstrap is mobile-first, meaning that the website structure is designed for extra small devices (portrait phones, less than 576px), and then scaled up with `min-width` media queries. In this case, I had to design desktop-first. I had to design the site based on a desktop webpage mockup, then adjust it for smaller sizes. See below for design of each section. I added [Bootstrap responsive images](https://getbootstrap.com/docs/4.0/content/images/#responsive-images) to this Markdown file with HTML `img` tags, and the Bootstrap `class="img-fluid"`. I resized the screenshots to fit within 800x600 pixels.
 - I generated TOC for all markdown files with [doctoc](https://github.com/thlorenz/doctoc):
 
   ```bash
@@ -133,11 +134,12 @@ See the **Rubric comparison** section of README.md for details.
 
 ## Header
 
-- *[Container](https://getbootstrap.com/docs/4.0/layout/overview/#containers):- I placed the `header` inside a `container` to keep it in line with other elements, as shown in the portfolio site mockup. A `container` should usually be the top-level div, but not always. For example, in the Bootstrap [docs](https://getbootstrap.com/docs/4.0/content/typography/), `header` is not in a `container`, and is outside the margins of the container below.
-- *[Grid](https://getbootstrap.com/docs/4.0/layout/grid/):- I created a grid in the header to show the Udacity logo and the text as two columns in the same row. Bootstrap has most of the optimal [flexbox formatting](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) built in already. There are 12 columns by default. I also tried including header elements as spans, but they did not align vertically.
-- *Udacity logo:- I set `max-width: 400px;` in the CSS to limit size of the SVG file. I also hyperlinked the image to the Udacity website.
-- *Responsive text horizontal alignment:- I created a media query to center align the text when the header reduces to one column. Bootstrap provides text alignment classes like `text-right` and `text-uppercase` that I could reference directly in the HTML, but this makes things more complicated, because I would have to coordinate style between CSS and HTML, so I opted to align the text with my own CSS.
-- *Header text vertical alignment:- I wanted the "Brendon Smith" text at the right side of the header to be centered with the Udacity logo svg text.
+- \_[Container](https://getbootstrap.com/docs/4.0/layout/overview/#containers):- I placed the `header` inside a `container` to keep it in line with other elements, as shown in the portfolio site mockup. A `container` should usually be the top-level div, but not always. For example, in the Bootstrap [docs](https://getbootstrap.com/docs/4.0/content/typography/), `header` is not in a `container`, and is outside the margins of the container below.
+- \_[Grid](https://getbootstrap.com/docs/4.0/layout/grid/):- I created a grid in the header to show the Udacity logo and the text as two columns in the same row. Bootstrap has most of the optimal [flexbox formatting](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) built in already. There are 12 columns by default. I also tried including header elements as spans, but they did not align vertically.
+- \_Udacity logo:- I set `max-width: 400px;` in the CSS to limit size of the SVG file. I also hyperlinked the image to the Udacity website.
+- \_Responsive text horizontal alignment:- I created a media query to center align the text when the header reduces to one column. Bootstrap provides text alignment classes like `text-right` and `text-uppercase` that I could reference directly in the HTML, but this makes things more complicated, because I would have to coordinate style between CSS and HTML, so I opted to align the text with my own CSS.
+- \_Header text vertical alignment:- I wanted the "Brendon Smith" text at the right side of the header to be centered with the Udacity logo svg text.
+
   - I tried `vertical-align: middle;` and the [Bootstrap vertical alignment](https://getbootstrap.com/docs/4.0/utilities/vertical-align/) class `align-middle` to no avail.
   - I searched the Bootstrap documentation and found the [text section](https://getbootstrap.com/docs/4.0/utilities/text/#text-alignment), but that didn't fix it either.
   - I found a [Stack Overflow question](https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3#20548578) that addressed this issue, but the solution didn't work for me.
@@ -149,7 +151,7 @@ See the **Rubric comparison** section of README.md for details.
   - **I had to set the header text to `line-height: 1.5;`:**
     ```css
     .header-title {
-      font-family: 'Raleway', sans-serif;
+      font-family: "Raleway", sans-serif;
       color: #02b3e4;
       text-align: right;
       text-transform: uppercase;
@@ -157,26 +159,27 @@ See the **Rubric comparison** section of README.md for details.
     }
     ```
   - **I continued to struggle with vertical alignment throughout construction of the website.** Items in columns tend to stick to the top of the column, and it is very difficult to get them to vertically center within the column.
-- *Navbar:- Later, during [website troubleshooting](#website-troubleshooting), I realized it would be helpful to have navigation at the top of the page. I included a collapsed [Bootstrap navbar](https://getbootstrap.com/docs/4.0/components/navbar/).
+
+- \_Navbar:- Later, during [website troubleshooting](#website-troubleshooting), I realized it would be helpful to have navigation at the top of the page. I included a collapsed [Bootstrap navbar](https://getbootstrap.com/docs/4.0/components/navbar/).
 
 [(Back to TOC)](#table-of-contents)
 
 ## Jumbotron
 
-- *Background:- I used the signature Udacity gradient. I also liked the simple gray default, and tried using different background images, such as the ones from the [Google Material Design guidelines](https://material.io/guidelines/material-design/introduction.html).
-- *Responsive design:- I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap `narrow-jumbotron` CSS that put in a breakpoint at `48em`, then coordinated the media queries with the column sizes set with classes in the HTML. **I finally got it: `col-md-6` header columns on medium displays, `col-sm-4` columns for thumbnails, and two media queries to shrink the page down at `991px` and `768px`.**
-- *Buttons:- I chose not to use a button group, so the buttons would stay separated. In order to prevent the buttons from breaking onto multiple lines on mobile, I simply reduced the font size to `font-size: 1.2rem;`.
+- \_Background:- I used the signature Udacity gradient. I also liked the simple gray default, and tried using different background images, such as the ones from the [Google Material Design guidelines](https://material.io/guidelines/material-design/introduction.html).
+- \_Responsive design:- I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap `narrow-jumbotron` CSS that put in a breakpoint at `48em`, then coordinated the media queries with the column sizes set with classes in the HTML. **I finally got it: `col-md-6` header columns on medium displays, `col-sm-4` columns for thumbnails, and two media queries to shrink the page down at `991px` and `768px`.**
+- \_Buttons:- I chose not to use a button group, so the buttons would stay separated. In order to prevent the buttons from breaking onto multiple lines on mobile, I simply reduced the font size to `font-size: 1.2rem;`.
 
 [(Back to TOC)](#table-of-contents)
 
 ## Portfolio thumbnails
 
-- *Responsive design:-
+- \_Responsive design:-
   - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
   - All images same height: Bootstrap gives the images `max-width: 100%` and `height: auto`, which means they are not the same height. I created alternate thumbnail versions of the images, and cropped and resized them so they were 300px square (the largest they will be is 276px).
   - Smaller images on mobile: added `max-height: 200px;` to the media query mentioned above.
-- *Link buttons:- I want to vertically align the three link buttons below the thumbnail descriptions. If I moved the buttons onto a separate row, they would not stay with the rest of the column when the site resizes for small viewports. I haven't fixed this yet, but I will keep it in mind for the future.
-- *PDF rendering:- I wanted to use the design mockup as a thumbnail for my portfolio site, but it was a PDF. PDF rendering in browsers requires plugins and may not be consistent. I just converted it to an image.
+- \_Link buttons:- I want to vertically align the three link buttons below the thumbnail descriptions. If I moved the buttons onto a separate row, they would not stay with the rest of the column when the site resizes for small viewports. I haven't fixed this yet, but I will keep it in mind for the future.
+- \_PDF rendering:- I wanted to use the design mockup as a thumbnail for my portfolio site, but it was a PDF. PDF rendering in browsers requires plugins and may not be consistent. I just converted it to an image.
 
 **Here is a screenshot after completing the Jumbotron and portfolio thumbnails:**
 
@@ -213,7 +216,7 @@ Nexus
 - I prefer dark themes, like many developers, so **I wanted to provide a dark theme option on my website.** Dark themes are becoming more popular. See [DuckDuckGo](https://duckduckgo.com/settings#theme) and [Jekyll](https://jekyllrb.com/) for examples of dark themes.
 - I originally tried to toggle the colors purely with CSS, using the guidelines from [design shack](https://designshack.net/articles/css/lightsoff/). I wasn't able to get it to successfully toggle any changes, at least with a local website preview, and this type of function is better suited for JavaScript.
 - I'm already loading the jQuery JavaScript library for Bootstrap, so why not build in some jQuery functionality? **I didn't know JavaScript at this point. Time to learn!**
-- I started by creating *js/portfolio.js*, and loading it at the end of the HTML:
+- I started by creating _js/portfolio.js_, and loading it at the end of the HTML:
 
   ```html
   <script src="js/portfolio.js" type="text/javascript"></script>
@@ -221,7 +224,8 @@ Nexus
 
 - I added [Bootstrap buttons](https://getbootstrap.com/docs/4.0/components/buttons/) instead of fake CSS "buttons" like the design shack tutorial.
 - The jQuery website had some helpful tips in their [documentation](http://learn.jquery.com/about-jquery/how-jquery-works/#adding-and-removing-an-html-class). I used some basic code to make sure jQuery was working:
-  - *Test CSS added to `portfolio.css`:*
+
+  - _Test CSS added to `portfolio.css`:_
 
     ```css
     .jQuery-test {
@@ -229,36 +233,37 @@ Nexus
       text-transform: uppercase;
     }
     ```
-  - *Test jQuery JavaScript added to `portfolio.js`:*
+
+  - _Test jQuery JavaScript added to `portfolio.js`:_
+
     ```javascript
     // test code
 
     // make text capitalized and bold
-    $( "a" ).addClass( "jQuery-test");
+    $("a").addClass("jQuery-test")
 
     // make links disappear when clicked
-    $( "a" ).click(function( event ) {
-        event.preventDefault();
-        $( this ).hide( "slow" );
-    });
+    $("a").click(function(event) {
+      event.preventDefault()
+      $(this).hide("slow")
+    })
     ```
 
 - All the links were bold and uppercase, and the buttons disappeared when clicked! Success!
 - Next, I applied the disappear-on-click action to the dark toggle button, to make sure that this specific button was working. A period is needed at the beginning of the class name to indicate CSS.
 
   ```javascript
-  $( ".btn-theme-toggle" ).click(function( event ) {
-  event.preventDefault();
-  $( this ).hide( "slow" );
-  });
+  $(".btn-theme-toggle").click(function(event) {
+    event.preventDefault()
+    $(this).hide("slow")
+  })
   ```
 
-- Next, I used `toggleClass` to toggle the dark theme on and off with a single button. I found the `toggleClass` function with a documentation search. Note that a period is required when initially *referencing- the class (after the `$`, before `toggleClass`) because it is referring to CSS, but not when *toggling- the class (after `toggleClass`), because the class name is added to HTML, where periods are not used. Specify multiple classes with spaces between them, just as in HTML. See [w3schools docs](https://www.w3schools.com/jquery/html_toggleclass.asp). I also checked out the [jQuery docs](https://api.jquery.com/toggleClass/), but found them clunky and difficult to read.
+- Next, I used `toggleClass` to toggle the dark theme on and off with a single button. I found the `toggleClass` function with a documentation search. Note that a period is required when initially _referencing_ the class (after the `$`, before `toggleClass`) because it is referring to CSS, but not when _toggling_ the class (after `toggleClass`), because the class name is added to HTML, where periods are not used. Specify multiple classes with spaces between them, just as in HTML. See [w3schools docs](https://www.w3schools.com/jquery/html_toggleclass.asp). I also checked out the [jQuery docs](https://api.jquery.com/toggleClass/), but found them clunky and difficult to read.
 - CSS:
 
   ```css
-  /- Dark theme */
-  .theme-dark {
+  /- Dark theme */ .theme-dark {
     background-color: #2d3c49;
     color: #ddd;
   }
@@ -268,9 +273,9 @@ Nexus
 
   ```javascript
   // Theme toggle
-  $( '.btn-theme-toggle' ).click(function() {
-      $( 'body' ).toggleClass( 'theme-dark' );
-  });
+  $(".btn-theme-toggle").click(function() {
+    $("body").toggleClass("theme-dark")
+  })
   ```
 
 ### SVG toggle
@@ -289,23 +294,33 @@ Nexus
 
   ```javascript
   // Set up variables for image replacement
-  var oldSrc = 'img/udacity-long.svg';
-  var newSrc = 'img/udacity-long-white.svg';
+  var oldSrc = "img/udacity-long.svg"
+  var newSrc = "img/udacity-long-white.svg"
   // Dark theme toggle
-  $( '.btn-theme-toggle' ).click(function() {
-      $( 'body' ).toggleClass( 'theme-dark' );
-      $('img[src="' + oldSrc + '"]').prop('src', newSrc);
-  });
+  $(".btn-theme-toggle").click(function() {
+    $("body").toggleClass("theme-dark")
+    $('img[src="' + oldSrc + '"]').prop("src", newSrc)
+  })
   ```
 
 - This successfully replaced the image, but it didn't toggle, it just stayed replaced.`prop` is a newer alternative to `attr`.
-- I switched to the `toggle` function, but had to dig into the documentation to figure it. It was difficult and confusing. There was a [previous `toggle` function](http://api.jquery.com/toggle-event/) that was deprecated. The current `toggle` function is an animation function that shows and hides elements by appending `style="display: none;"` to the HTML. Again, I discovered this by watching the code with Chrome developer tools as I clicked the toggle button. I eventually succeeded by including both versions of the Udacity logo SVG in the HTML from the get-go, using the `.header-logo` class from my CSS file as a [*selector*](https://www.w3schools.com/jquery/jquery_selectors.asp) for both, but including `style="display: none;"` in the HTML for the one with white text. This allowed me to toggle between versions of the SVG with one line of jQuery code:
+- I switched to the `toggle` function, but had to dig into the documentation to figure it. It was difficult and confusing. There was a [previous `toggle` function](http://api.jquery.com/toggle-event/) that was deprecated. The current `toggle` function is an animation function that shows and hides elements by appending `style="display: none;"` to the HTML. Again, I discovered this by watching the code with Chrome developer tools as I clicked the toggle button. I eventually succeeded by including both versions of the Udacity logo SVG in the HTML from the get-go, using the `.header-logo` class from my CSS file as a [_selector_](https://www.w3schools.com/jquery/jquery_selectors.asp) for both, but including `style="display: none;"` in the HTML for the one with white text. This allowed me to toggle between versions of the SVG with one line of jQuery code:
+
   - HTML:
 
   ```html
   <a href="https://udacity.com">
-    <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
-    <img class="header-logo svg" src="img/udacity-long-white.svg" alt="Udacity logo svg alt" style="display: none;">
+    <img
+      class="header-logo svg"
+      src="img/udacity-long.svg"
+      alt="Udacity logo svg"
+    />
+    <img
+      class="header-logo svg"
+      src="img/udacity-long-white.svg"
+      alt="Udacity logo svg alt"
+      style="display: none;"
+    />
   </a>
   ```
 
@@ -313,19 +328,28 @@ Nexus
 
   ```javascript
   // Theme toggle
-  $( '.btn-theme-toggle' ).click(function() {
-      $( 'body' ).toggleClass( 'theme-dark' );
-      $( '.header-logo' ).toggle();
-  });
+  $(".btn-theme-toggle").click(function() {
+    $("body").toggleClass("theme-dark")
+    $(".header-logo").toggle()
+  })
   ```
 
 - I was using `style="display: none;"` to toggle different versions of the Udacity header logo for the light and dark themes, but it was not necessary. After code review, I used the [Bootstrap `d-none` CSS class](https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements), and modified the jQuery JavaScript to toggle `d-none` specifically for the `header-logo` class.
+
   - HTML:
 
   ```html
   <a href="https://udacity.com">
-    <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
-    <img class="header-logo svg d-none" src="img/udacity-long-white.svg" alt="Udacity logo svg alt">
+    <img
+      class="header-logo svg"
+      src="img/udacity-long.svg"
+      alt="Udacity logo svg"
+    />
+    <img
+      class="header-logo svg d-none"
+      src="img/udacity-long-white.svg"
+      alt="Udacity logo svg alt"
+    />
   </a>
   ```
 
@@ -333,10 +357,10 @@ Nexus
 
   ```javascript
   // Theme toggle
-  $( '.btn-theme-toggle' ).click(function() {
-      $( 'body' ).toggleClass( 'theme-dark' );
-      $( '.header-logo' ).toggleClass( 'd-none' );
-  });
+  $(".btn-theme-toggle").click(function() {
+    $("body").toggleClass("theme-dark")
+    $(".header-logo").toggleClass("d-none")
+  })
   ```
 
 - I am aware that it is not ideal to include two versions of an image on a website because of size and speed considerations. In the future, I will try something more efficient, like including the SVG code inline and styling it by changing CSS classes. I found some ideas in the [awesome-svg GitHub repo](https://github.com/willianjusten/awesome-svg).
@@ -378,7 +402,7 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
 
 ### [Jekyll website creation](https://jekyllrb.com/docs/quickstart/#options-for-creating-a-new-site-with-jekyll)
 
-- Create Jekyll website in *docs/- folder for GitHub pages project page:
+- Create Jekyll website in _docs/_ folder for GitHub pages project page:
 
   ```bash
   $ cd <PATH>
@@ -394,18 +418,18 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
   ```
 
 - Jekyll will create a `_site/` directory. Do not directly modify the files in the `_site/` directory. They will update automatically.
-- Jekyll automatically creates a *.gitignore- and its directory structure. There is no need to manually build the directory structure as described in the [GitHub Pages guide from Jonathan McGlone](http://jmcglone.com/guides/github-pages/).
-- Jekyll websites use [themes](https://jekyllrb.com/docs/themes/) based on Ruby Gems. The files, like *_layouts/- and *_includes/*, are bundled within the gem.
+- Jekyll automatically creates a _.gitignore_ and its directory structure. There is no need to manually build the directory structure as described in the [GitHub Pages guide from Jonathan McGlone](http://jmcglone.com/guides/github-pages/).
+- Jekyll websites use [themes](https://jekyllrb.com/docs/themes/) based on Ruby Gems. The files, like _layouts/_ and _includes/_, are bundled within the gem.
 
 ### Jekyll website page includes and layouts
 
 - I had to restructure the webpage code for Jekyll. I found the [creating pages docs from Jekyll](https://jekyllrb.com/docs/pages/) to be lacking. The [convert an HTML site to Jekyll tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/), the [GitHub Pages guide from Jonathan McGlone](http://jmcglone.com/guides/github-pages/) and the [GitHub Pages guide from Anna Debenham at 24 ways](https://24ways.org/2013/get-started-with-github-pages/) were more helpful when adapting the Udacity webpage for Jekyll. I agree with Debenham, who wrote, "Overall, the documentation for Jekyll feels a little sparse and geared more towards blogs than other sites..."
-- I [overrode the theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) by adding *_layouts/- and *_includes/- folders.
-- Instead of including the same header and footer HTML on every page, I added each separately to *header.html- and *footer.html- in my *_includes/- folder.
+- I [overrode the theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) by adding _\_layouts/- and _\_includes/- folders.
+- Instead of including the same header and footer HTML on every page, I added each separately to _header.html_ and _footer.html_ in my _includes/_ folder.
 - I then had to include [liquid templating tags](https://shopify.github.io/liquid/) in each layout to build the webpages.
 - Homepage:
-  - I created a simple *home.html- layout in *_layouts/*.
-  - I included the body of the webpage that I built for the Udacity project in the root directory (the *docs/- folder) as *index.html*, with `layout: home` in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/) instead of the header and footer.
+  - I created a simple _home.html_ layout in _layouts_.
+  - I included the body of the webpage that I built for the Udacity project in the root directory (the _docs/_ folder) as _index.html_, with `layout: home` in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/) instead of the header and footer.
 - Other pages: I simply had to include YAML front matter at the beginning of the other pages to format them with layouts.
 
 [(Back to TOC)](#table-of-contents)
@@ -419,7 +443,7 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
 ### Jekyll prep
 
 - Include the [GitHub Pages Gem](https://jekyllrb.com/docs/github-pages/#the-github-pages-gem) in the Gemfile.
-- Sitemap: add `jekyll-sitemap` to the `plugins` section of *_config.yml*.
+- Sitemap: add `jekyll-sitemap` to the `plugins` section of _\_config.yml_.
   - [Jekyll tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#11-add-a-sitemap)
   - [Automatic sitemap generation for GitHub Pages](https://help.github.com/articles/sitemaps-for-github-pages/)
 
@@ -449,14 +473,14 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
 
 ### Relative URLs
 
-In my *_config.yml- file, I had to set the `url` and `baseurl` separately:
+In my _config.yml_ file, I had to set the `url` and `baseurl` separately:
 
 ```yaml
 url: "https://br3ndonland.github.io"
 baseurl: "/udacity-fsnd01-p02-portfolio"
 ```
 
-Convert relative links to [Jekyll Liquid filters](https://jekyllrb.com/docs/templates/#filters) for consistent linking throughout the site. The `baseurl` from *_config.yml- will only be prepended to relative urls in the context of Liquid filters.
+Convert relative links to [Jekyll Liquid filters](https://jekyllrb.com/docs/templates/#filters) for consistent linking throughout the site. The `baseurl` from _\_config.yml_ will only be prepended to relative urls in the context of Liquid filters.
 
 Liquid templating can be used within HTML. For example, when creating a relative URL to an image, the entire Liquid filter is enclosed within quotes. However, I'm not sure if Liquid templating can be used within YAML front matter.
 
@@ -466,7 +490,7 @@ Images will show up in Markdown files with either HTML `img` tags or Markdown im
 
 If Jekyll Liquid filters are used to refer to images, even if the filters are within HTML `img` tags, the images will not show up in the Markdown files when viewed on GitHub. **GitHub Pages reads Jekyll Liquid templating, but GitHub.com does not apply Liquid when viewing files in repositories.** You can see this when comparing the [images page of Bootstrap's GitHub Pages site](https://getbootstrap.com/docs/4.0/content/images/) with the [images page in the GitHub repository used to run the site](https://github.com/twbs/bootstrap/blob/v4-dev/docs/4.0/content/images.md).
 
-The solution was to put the pages in a *pages- folder (not *_pages*, apparently custom directories for pages can't begin with [whatever you want](https://jekyllrb.com/docs/pages/#where-additional-pages-live)), set [permalinks](https://jekyllrb.com/docs/permalinks/) in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/), then use a plain HTML relative link starting with `../img/` to point to the directory above. This way, the file path is the same on the website and in the plain GitHub repository.
+The solution was to put the pages in a _pages_ folder (not _\_pages_, apparently custom directories for pages can't begin with [whatever you want](https://jekyllrb.com/docs/pages/#where-additional-pages-live)), set [permalinks](https://jekyllrb.com/docs/permalinks/) in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/), then use a plain HTML relative link starting with `../img/` to point to the directory above. This way, the file path is the same on the website and in the plain GitHub repository.
 
 ### Syntax highlighting
 

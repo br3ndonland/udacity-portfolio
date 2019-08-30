@@ -3,6 +3,7 @@ layout: page
 title: Udacity project rubric
 permalink: /rubric/
 ---
+
 # Udacity project rubric
 
 Udacity Full Stack Web Developer Nanodegree program
@@ -25,15 +26,15 @@ br3ndonland
 
 - [Table of Contents](#table-of-contents)
 - [Udacity Project Overview](#udacity-project-overview)
-  - [*Why this project?*](#why-this-project)
-  - [*What will I learn?*](#what-will-i-learn)
-  - [*Why is this important to my career?*](#why-is-this-important-to-my-career)
-  - [*Note*](#note)
+  - [_Why this project?_](#why-this-project)
+  - [_What will I learn?_](#what-will-i-learn)
+  - [_Why is this important to my career?_](#why-is-this-important-to-my-career)
+  - [_Note_](#note)
 - [Udacity Project Details](#udacity-project-details)
-  - [*How do I complete this project?*](#how-do-i-complete-this-project)
-  - [*Instructions:*](#instructions)
-  - [*Additional resources*](#additional-resources)
-  - [*Supporting materials*](#supporting-materials)
+  - [_How do I complete this project?_](#how-do-i-complete-this-project)
+  - [_Instructions:_](#instructions)
+  - [_Additional resources_](#additional-resources)
+  - [_Supporting materials_](#supporting-materials)
 - [Udacity Rubric](#udacity-rubric)
 - [Submission](#submission)
 
@@ -43,25 +44,25 @@ For this project, you'll be building a portfolio website. You will be provided a
 
 Once you've successfully replicated the design mockup, you are encouraged to continue tweaking and making customizations to the design to personalize it and make it your own! This is your living portfolio site, so make sure you're happy with it.
 
-### *Why this project?*
+### _Why this project?_
 
-**The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!*- You need a professional portfolio to show off your skills.
+\*_The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!_- You need a professional portfolio to show off your skills.
 
 In this project you’ll build a great looking portfolio where you can show off images, descriptions and links to all of your projects. You'll do so by writing code that conforms to the [Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/).
 
-### *What will I learn?*
+### _What will I learn?_
 
 You will learn how HTML is used to define the content of a web page and start to think of every web page as a number of boxes on the screen. You’ll then learn how to position those boxes and make them beautiful using CSS.
 
 You'll accomplish this while conforming to a [style guide](http://udacity.github.io/frontend-nanodegree-styleguide/) which is an important constraint once you step into any existing development position.
 
-### *Why is this important to my career?*
+### _Why is this important to my career?_
 
 - **Without a portfolio, recruiters won’t even look at your resume much less interview you.**
 - At their very foundation, web applications are just content delivery mechanisms; HTML defines how that language is structured.
 - Reading poorly designed content is never an enjoyable experience; CSS empowers you to create beautiful content regardless of your user’s device.
 
-### *Note*
+### _Note_
 
 If you were previously enrolled in our Intro to HTML and CSS single course and successfully completed this project prior to enrolling in the Nanodegree program (which entails having graduated from the course and having access to your course certificate), simply email us at frontend-project@udacity.com with your passing evaluation and we'll give you credit for this project.
 
@@ -75,7 +76,7 @@ The design mockup for this project is located [here](https://storage.googleapis.
 
 ## Udacity Project Details
 
-### *How do I complete this project?*
+### _How do I complete this project?_
 
 All of the lessons you'll need to help you build this can be found in the lessons in this part of your Nanodegree program.
 
@@ -83,17 +84,17 @@ Depending on your background knowledge of HTML and CSS, you may not need to comp
 
 Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/view) closely when designing your page. For example, note that [HTML5 semantic (structural) elements](https://www.w3.org/wiki/HTML_structural_elements#Enter_HTML5_structural_elements) must be used to organize content.
 
-### *Instructions:*
+### _Instructions:_
 
 1. Download the design mockup file from the Downloadables section (in the lower right hand corner of your screen, just below this text) and review it.
 2. Identify the various boxes you will need to build in order to recreate this design.
 3. Write your HTML and CSS files, continue to iterate until your work is representative of the design mockup.
 4. Take the time to personalize your portfolio with custom colors, additional content and your own images.
-5. Validate your HTML and CSS against the [W3C's Validators](http://validator.w3.org/). *Note: the validators consider the following errors, whereas Udacity accepts these errors as acceptable:*
-    - HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta*- when using the X-UA-Compatible meta tag.
-    - CSS3: **Property [some property here] is an unknown vendor extension*- when using vendor prefixed properties (like -moz-box-sizing).
+5. Validate your HTML and CSS against the [W3C's Validators](http://validator.w3.org/). _Note: the validators consider the following errors, whereas Udacity accepts these errors as acceptable:_
+   - HTML5: \*_Bad value X-UA-Compatible for attribute http-equiv on element meta_- when using the X-UA-Compatible meta tag.
+   - CSS3: \*_Property [some property here] is an unknown vendor extension_- when using vendor prefixed properties (like -moz-box-sizing).
 
-### *Additional resources*
+### _Additional resources_
 
 Here are some tools you will find useful in checking your work —
 
@@ -101,14 +102,13 @@ Here are some tools you will find useful in checking your work —
 - [HTML Validator](http://validator.w3.org/#validate_by_input)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### *Supporting materials*
+### _Supporting materials_
 
 [design-mockup-portfolio.pdf](https://www.udacity.com/api/nodes/2655898586/supplemental_media/design-mockup-portfoliopdf/download)
 
 [(Back to TOC)](#table-of-contents)
 
 ## Udacity Rubric
-
 
 <html>
 <div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h3 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h3> <h4 id="project-name" ng-bind-html="localize(ctrl.rubric.project, 'name', markup=true)" class="ng-binding"><p>Build a Portfolio Site</p>

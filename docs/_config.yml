@@ -20,7 +20,7 @@ description: >- # ignore newlines until "baseurl:"
 url: "https://br3ndonland.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/udacity" # the subpath of your site, e.g. /blog
 # twitter_username:
-github_username:  br3ndonland
+github_username: br3ndonland
 
 # Build settings
 # kramdown and rouge highlighter now enabled by default
@@ -33,7 +33,6 @@ plugins:
 
 include:
   - .htaccess
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

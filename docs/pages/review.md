@@ -3,6 +3,7 @@ layout: page
 title: Udacity project review
 permalink: /review/
 ---
+
 # Udacity project review
 
 Udacity Full Stack Web Developer Nanodegree program
@@ -45,7 +46,7 @@ br3ndonland
 
 ### Summary from me
 
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css- for additional custom styling.
+I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage _index.html_, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created \*portfolio.css- for additional custom styling.
 
 I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
 
@@ -53,13 +54,11 @@ The repository for this project is available at [https://github.com/br3ndonland/
 
 I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages. The website includes a homepage, an "About" page where I introduce myself and my Udacity work, a "Methods" page explaining how I built the site in detail, a "Rubric" page providing the Udacity project documentation, and a "Review" page documenting the Udacity code review.
 
-
 ### Summary from reviewer
 
-> **Project looks fantastic and you’re almost there to meeting specifications, so keep up the great effort!**  :star:
+> **Project looks fantastic and you’re almost there to meeting specifications, so keep up the great effort!** :star:
 >
 > **There is only a little more work to be done on the layout architecture and making sure you have complete separation of styles before your project can fully meet specifications.** :smiley:
-
 
 ### Project review
 
@@ -73,9 +72,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 - Semantic HTML
   - All divs have CSS classes.
   - Reviewer comments:
-    > **Well done using some semantic elements to mark up appropriate content in your HTML. I have left you some additional suggestions in the code review.**
-    > **Having semantic code can go a long way to making it more understandable to both the programmer and in terms of accessibility.**
-    > **You can see on this [page](https://www.w3schools.com/html/html5_semantic_elements.asp) the list of new semantic elements in HTML5.**
+    > **Well done using some semantic elements to mark up appropriate content in your HTML. I have left you some additional suggestions in the code review.** > **Having semantic code can go a long way to making it more understandable to both the programmer and in terms of accessibility.** > **You can see on this [page](https://www.w3schools.com/html/html5_semantic_elements.asp) the list of new semantic elements in HTML5.**
 - Custom Design
   - Custom images and text
   - Custom CSS
@@ -84,7 +81,6 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - Website built with Bootstrap. All grids wrapped in `container` class elements.
   - Reviewer comments:
     > **The Bootstrap grid layout needs a little more work in order to fully conform with the spec and intended use, with reference to the framework docs. Please see the code review for further guidance.**
-
 
 #### Responsiveness
 
@@ -101,7 +97,6 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - Reviewer comments:
     > **For future reference and/or learning on the use of responsive images and backgrounds in different contexts, you may find it useful to see this [page](https://www.w3schools.com/css/css_rwd_images.asp) from W3Schools and the MDN [docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images).**
 
-
 #### Separation of Concerns
 
 - Styles Separated from HTML
@@ -110,12 +105,11 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
     > **There is a style attribute remaining in your HTML. This style information will need to be moved to CSS in order to meet specifications. Please see the code review for details.**
 - File Structure
   - Directory structure separates files based on functionality.
-  `css/` for stylesheets
-  `img/` for images
-  `js/` for JavaScript
+    `css/` for stylesheets
+    `img/` for images
+    `js/` for JavaScript
   - Reviewer comments
     > **Excellent project file organisation!** :thumbsup:
-
 
 #### Code Quality
 
@@ -162,44 +156,59 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
     > **Well done naming your CSS classes semantically. Going forward, you may further be interested in looking into the [BEM](http://getbem.com/introduction/) CSS framework, which establishes a robust methodology for naming styles and can help you stay on top of progressively more complex projects through improved modularity, re-usability and maintainability of CSS code.**
 - General Meta Rules
   - `UTF-8` encoding used
-  -  [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
-  `<!-- TODO: [description of task] -->` for HTML
-  `/- TODO: [description of task] */` for CSS
-
+  - [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
+    `<!-- TODO: [description of task] -->` for HTML
+    `/- TODO: [description of task] */` for CSS
 
 ### Code review
+
 [(Back to TOC)](#table-of-contents)
 
-#### *index.html:*
+#### _index.html:_
 
 ```html
-1 <!DOCTYPE html>
-2 <html lang="en">
-3   <head>
-4    <title>Brendon Smith | Udacity</title>
+1 <!DOCTYPE html> 2
+<html lang="en">
+  3
+  <head>
+    4
+    <title>Brendon Smith | Udacity</title>
+  </head>
+</html>
 ```
+
 AWESOME
 Including a title for your portfolio page (well, every page actually...) is awesome! :smiley:
 
 As a suggestion, consider adding some of the other meta tags available to you such as description, keywords and author. You can see an example of their suggested usage on the following [page](https://www.w3schools.com/tags/tag_meta.asp).
 
-
 ```html
-5    <!-- Required meta tags -->
-6    <meta charset="utf-8">
-7    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+5
+<!-- Required meta tags -->
+6 <meta charset="utf-8" /> 7
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
 ```
+
 AWESOME
 Well done including the correct viewport meta tag to instruct the browser to render the page content responsively. :star:
 
-
 ```html
-8    <!-- Bootstrap core CSS -->
-9    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+8
+<!-- Bootstrap core CSS -->
+9
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+  integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+  crossorigin="anonymous"
+/>
 ```
+
 AWESOME
 Well done preferring the minified version of Bootstrap, which is smaller in size. :thumbsup:
-
 
 ```html
 10    <!-- Google Fonts -->
@@ -217,20 +226,26 @@ Well done preferring the minified version of Bootstrap, which is smaller in size
 22              <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
 23              <!-- Alternate version of header logo to display when dark theme is toggled -->
 ```
+
 AWESOME
 Great use of comments throughout your HTML to provide landmarks for other developers interpreting your code.
 
-
 ```html
-24              <img class="header-logo svg" src="img/udacity-long-white.svg" alt="Udacity logo svg alt" style="display: none;">
+24
+<img
+  class="header-logo svg"
+  src="img/udacity-long-white.svg"
+  alt="Udacity logo svg alt"
+  style="display: none;"
+/>
 ```
+
 REQUIRED
 The rubric requires that:
 
 > Portfolio completely separates structure (HTML) from design/style (CSS). There are no style attributes present in the body of the HTML document. There are no `<style>` elements in the document.
 
 Please move this style information into a stylesheet in order to meet this spec.
-
 
 ```html
 25            </a>
@@ -263,50 +278,101 @@ Please move this style information into a stylesheet in order to meet this spec.
 52    <!-- Portfolio thumbnails -->
 53    <div class="container">
 ```
+
 SUGGESTION
 :bulb: Idea
 
 Your project section is a perfect opportunity make use of the section and article tags to add further semantic meaning to the code. For more information on the semantic section element and other related elements, I recommend checking out the following [article](http://blog.teamtreehouse.com/use-html5-sectioning-elements).
 
-
 ```html
-54      <h1 class="text-muted">
+54
+<h1 class="text-muted"></h1>
 ```
+
 SUGGESTION
 As a continuation of the above suggestion, section headings can also be wrapped in a header element for additional semantic value.
-
 
 ```html
 55        Featured work
 56      </h1>
 ```
+
 SUGGESTION
 :bulb: Idea
 
 As a suggestion, consider using h2 for this heading instead of h1, which is best reserved for the most significant heading of the page unless you are adding additional semantic sectioning. For further reading on using headings in HTML5, I recommend checking out this great, in-depth [article](https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824).
 
-
 ```html
-57      <div class="row">
-58        <div class="col-sm-4">
-59          <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
-60          <h2>Udacity FSND</h2>
-61          <p>General repository for Udacity Full Stack Nanodegree program (FSND) course notes and materials. Step right up and learn about the cool things I'm doing with Udacity!</p>
-62          <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd" role="button">GitHub &raquo;</a></p>
-63        </div>
-64        <div class="col-sm-4">
-65          <img src="img/fresh-tomatoes-noir-thumbnail-square.png" alt="Movie site thumbnail" class="img-thumbnail">
-66          <h2>Movie site</h2>
-67          <p>Server-side code written in Python to store a list of my favorite movies, including artwork and trailers, then serve the data to a local webpage with HTML and CSS.</p>
-68          <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p01-movies" role="button">GitHub &raquo;</a></p>
-69        </div>
-70        <div class="col-sm-4">
-71          <img src="img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio site design mockup" class="img-thumbnail">
+57
+<div class="row">
+  58
+  <div class="col-sm-4">
+    59
+    <img
+      src="https://cdn.worldvectorlogo.com/logos/udacity.svg"
+      alt="Udacity U svg"
+      class="img-thumbnail"
+    />
+    60
+    <h2>Udacity FSND</h2>
+    61
+    <p>
+      General repository for Udacity Full Stack Nanodegree program (FSND) course
+      notes and materials. Step right up and learn about the cool things I'm
+      doing with Udacity!
+    </p>
+    62
+    <p>
+      <a
+        class="btn btn-secondary"
+        href="https://github.com/br3ndonland/udacity-fsnd"
+        role="button"
+        >GitHub &raquo;</a
+      >
+    </p>
+    63
+  </div>
+  64
+  <div class="col-sm-4">
+    65
+    <img
+      src="img/fresh-tomatoes-noir-thumbnail-square.png"
+      alt="Movie site thumbnail"
+      class="img-thumbnail"
+    />
+    66
+    <h2>Movie site</h2>
+    67
+    <p>
+      Server-side code written in Python to store a list of my favorite movies,
+      including artwork and trailers, then serve the data to a local webpage
+      with HTML and CSS.
+    </p>
+    68
+    <p>
+      <a
+        class="btn btn-secondary"
+        href="https://github.com/br3ndonland/udacity-fsnd01-p01-movies"
+        role="button"
+        >GitHub &raquo;</a
+      >
+    </p>
+    69
+  </div>
+  70
+  <div class="col-sm-4">
+    71
+    <img
+      src="img/design-mockup-portfolio-thumbnail-square.png"
+      alt="Portfolio site design mockup"
+      class="img-thumbnail"
+    />
+  </div>
+</div>
 ```
+
 AWESOME
 You have consistently presented descriptive alt attributes on all your imgs, which helps provide a fallback and improved accessibility. :thumbsup:
-
-
 
 ```html
 72          <h2>Portfolio site</h2>
@@ -318,6 +384,7 @@ You have consistently presented descriptive alt attributes on all your imgs, whi
 78    <!-- Footer -->
 79    <div class="container">
 ```
+
 REQUIRED
 The rubric requires that the
 
@@ -327,22 +394,28 @@ If we refer to the Bootstrap [docs](https://getbootstrap.com/docs/4.0/layout/gri
 
 The below code and any other applicable sections will need to conform with the intended use of the Bootstrap framework in order to fully meet this spec.
 
-
 ```html
-80      <hr>
-81      <footer class="footer">
-82        <span class="text-muted px-2">
-83          &copy; Brendon Smith 2017
-84        </span>
-85        <span class="px-2">
-86          <a class="card-link" href="https://github.com/br3ndonland/">
-87              <img class="social-icon svg" src="img/mark-github-light.svg" alt="GitHub">
+80
+<hr />
+81
+<footer class="footer">
+  82 <span class="text-muted px-2"> 83 &copy; Brendon Smith 2017 84 </span> 85
+  <span class="px-2">
+    86
+    <a class="card-link" href="https://github.com/br3ndonland/">
+      87
+      <img
+        class="social-icon svg"
+        src="img/mark-github-light.svg"
+        alt="GitHub"/></a
+  ></span>
+</footer>
 ```
+
 AWESOME
 Nice work adding some additional contact opportunities for user interaction. :star:
 
 [FontAwesome](http://fontawesome.io/examples/) has a great selection of icons you can use for just this and more. I recommend checking it out!
-
 
 ```html
 88          </a>
@@ -365,26 +438,25 @@ Nice work adding some additional contact opportunities for user interaction. :st
 105​
 ```
 
-
-#### *css/portfolio.css:*
+#### _css/portfolio.css:_
 
 ```css
-1/- Header and Headings */
-2​
-3h1, .h1 {}
+1/- header and Headings */ 2​ 3h1,
+.h1 {
+}
 ```
+
 SUGGESTION
 :grey_exclamation: Code Quality
 
 The Udacity Styleguide recommends that we start a new line for each selector when grouping selectors for a rule-set, which can help to increase readability.
 
-
 ```text
 4 font-family: "Lobster", cursive;
 ```
+
 AWESOME
 Providing at least one fallback font-family in case the primary font is not available to your user shows foresight and aligns with best practices!
-
 
 ```css
 5}
@@ -393,9 +465,9 @@ Providing at least one fallback font-family in case the primary font is not avai
 8  margin-bottom: 0.5rem;
 9  border-bottom: 0.2rem solid #7d97ad;}
 ```
+
 SUGGESTION
 Good use of the border shorthand to simplify what would otherwise require multiple border-related declarations. :thumbsup:
-
 
 ```css
 10 }
@@ -443,7 +515,6 @@ There are a number of different ways shorthands like margin and padding can be s
 
 Please see the following [page](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) from MDN for further learning about the different types of shorthands available in CSS, which help you to code more efficiently and produce code that is easier to parse. :smiley:
 
-
 ```css
 37}
 38​
@@ -476,11 +547,11 @@ Please see the following [page](https://developer.mozilla.org/en-US/docs/Web/CSS
 65  font-size: 1.2rem;
 66  color: #212529;}
 ```
+
 SUGGESTION
 :grey_exclamation: Code Quality
 
 The Udacity [Styleguide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html#capitalization) recommends the use of lowercase for all selectors, property names and property values, which aligns with best practices and helps to improve the readability of our code.
-
 
 ```css
 67}
@@ -493,14 +564,15 @@ The Udacity [Styleguide](http://udacity.github.io/frontend-nanodegree-styleguide
 74​
 75/- Media queries for responsive text and images */
 ```
+
 AWESOME
 The comments used to provide organisation to your stylesheet are awesome. :thumbsup:
 
-
 ```css
-76​
-77 @media (max-width: 991px) {}
+76​ 77 @media (max-width: 991px) {
+}
 ```
+
 AWESOME
 Well done using media queries to provide further breakpoints for your responsive layout. For further reading, you may be interested in this blog [post](http://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/) on different modern design approaches.
 
@@ -546,8 +618,7 @@ Since you are using Bootstrap, if you wanted to exert more control over the layo
 114​
 ```
 
-
-#### *README.md*
+#### _README.md_
 
 AWESOME
 Great job going beyond the requirements and providing a README for your project! :smiley:
@@ -556,8 +627,7 @@ Being able to write a strong README will help your projects be more approachable
 
 Also, [Dillinger](https://dillinger.io/) is a great online app for drafting documents with Markdown where you can see the results in real-time.
 
-
-#### *js/portfolio.js:-
+#### \*js/portfolio.js:-
 
 ```javascript
 1// Theme toggle
@@ -566,19 +636,19 @@ Also, [Dillinger](https://dillinger.io/) is a great online app for drafting docu
 4    $( '.header-logo' ).toggle();
 5});
 ```
+
 AWESOME
 Really cool additional customisation! :sparkles:
 
-
 ## Second submission
+
 [(Back to TOC)](#table-of-contents)
 
 ### Response to reviewer
 
 Thank you for your comprehensive and helpful code review! I have pushed the changes to my GitHub repository. Here is a summary of my revisions, written in the imperative to match my Git commit message:
 
-
-#### *index.html:*
+#### _index.html:_
 
 - Add `meta` tags
 - Replace pipe `|` character in Google Fonts stylesheet link with HTML `%7C` equivalent.
@@ -589,37 +659,33 @@ Thank you for your comprehensive and helpful code review! I have pushed the chan
 - Incorporate Font Awesome CDN, and change GitHub icon to Font Awesome.
 - Add `justify-content-center` class to nav.
 
-
-#### *css/portfolio.css:*
+#### _css/portfolio.css:_
 
 - Add new line for each selector when grouping selectors for a rule-set.
 - Simplify padding declarations with `1rem` for body.
 - Use lowercase for all selectors, property names and property values.
 - Modify media query to add break in footer before links.
 
-
-#### *pages*
+#### _pages_
 
 - Add "Back to TOC" navigation under page headers.
-
 
 ### Summary from reviewer
 
 **Excellent improvements! There's just one final issue to fix!** :star:
 
-
 ### Project review
 
 No changes.
 
-
 ### Code review
 
-#### *index.html:*
+#### _index.html:_
 
 ```html
 1 <!DOCTYPE html>
 ```
+
 AWESOME
 Hello! My name is Fernando and will be reviewing your project this time :bowtie:
 
@@ -634,53 +700,121 @@ If you like my review, or if you don't, please rate at the bottom of the screen,
 Thanks and happy learning!
 
 ```html
-2 <html lang="en">
-3   <head>
-4     <title>Brendon Smith | Udacity</title>
-5     <meta name="description" content="Webpage for Udacity code on GitHub">
-6     <meta name="keywords" content="Udacity,GitHub,Jekyll,Bootstrap,HTML,CSS,JavaScript,jQuery">
-7     <meta name="author" content="Brendon Smith">
-8     <!-- Required meta tags -->
-9     <meta charset="utf-8">
-10    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-11    <!-- Bootstrap core CSS -->
-12    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-13    <!-- Google Fonts -->
-14    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster%7CRaleway:300">
-15    <!-- Custom styles for this page -->
-16    <link rel="stylesheet" href="css/portfolio.css">
-17    <!-- Font Awesome -->
-18    <script src="https://use.fontawesome.com/a629607ecd.js"></script>
-19  </head>
-20  <body>
-21    <!-- Header -->
-22    <header class="container header">
-23      <div class="row">
-24        <div class="col-md-6">
-25          <a href="https://udacity.com">
-26            <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
-27            <!-- Alternate version of header logo to display when dark theme is toggled -->
-28            <img class="header-logo svg d-none" src="img/udacity-long-white.svg" alt="Udacity logo svg alt">
-29          </a>
-30        </div>
-31        <div class="col-md-6">
-32          <h1 class="header-title">
-33            Brendon Smith
-34          </h1>
-35        </div>
-36      </div>
-37      <div class="row">
-38        <div class="col">
-39          <h2 class="header-subtitle">
-40            Udacity portfolio
-41          </h2>
-42        </div>
-43      </div>
-44    </header>
-45    <main>
-46      <!-- Large center jumbotron container -->
-47      <div class="container jumbotron background-udacity">
+2
+<html lang="en">
+  3
+  <head>
+    4
+    <title>Brendon Smith | Udacity</title>
+    5
+    <meta name="description" content="Webpage for Udacity code on GitHub" />
+    6
+    <meta
+      name="keywords"
+      content="Udacity,GitHub,Jekyll,Bootstrap,HTML,CSS,JavaScript,jQuery"
+    />
+    7
+    <meta name="author" content="Brendon Smith" />
+    8
+    <!-- Required meta tags -->
+    9
+    <meta charset="utf-8" />
+    10
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    11
+    <!-- Bootstrap core CSS -->
+    12
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    13
+    <!-- Google Fonts -->
+    14
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster%7CRaleway:300"
+    />
+    15
+    <!-- Custom styles for this page -->
+    16
+    <link rel="stylesheet" href="css/portfolio.css" />
+    17
+    <!-- Font Awesome -->
+    18
+    <script src="https://use.fontawesome.com/a629607ecd.js"></script>
+    19
+  </head>
+  20
+  <body>
+    21
+    <!-- Header -->
+    22
+    <header class="container header">
+      23
+      <div class="row">
+        24
+        <div class="col-md-6">
+          25
+          <a href="https://udacity.com">
+            26
+            <img
+              class="header-logo svg"
+              src="img/udacity-long.svg"
+              alt="Udacity logo svg"
+            />
+            27
+            <!-- Alternate version of header logo to display when dark theme is toggled -->
+            28
+            <img
+              class="header-logo svg d-none"
+              src="img/udacity-long-white.svg"
+              alt="Udacity logo svg alt"
+            />
+            29
+          </a>
+          30
+        </div>
+        31
+        <div class="col-md-6">
+          32
+          <h1 class="header-title">
+            33 Brendon Smith 34
+          </h1>
+          35
+        </div>
+        36
+      </div>
+      37
+      <div class="row">
+        38
+        <div class="col">
+          39
+          <h2 class="header-subtitle">
+            40 Udacity portfolio 41
+          </h2>
+          42
+        </div>
+        43
+      </div>
+      44
+    </header>
+    45
+    <main>
+      46
+      <!-- Large center jumbotron container -->
+      47
+      <div class="container jumbotron background-udacity"></div>
+    </main>
+  </body>
+</html>
 ```
+
 SUGGESTION
 Normally we don't add jumbotron and container in the same element. We can use jumbotron to expand the whole container width and you can add container inside of it so its content do not expand to the width.
 
@@ -700,9 +834,9 @@ Normally we don't add jumbotron and container in the same element. We can use ju
 60        <header>
 61          <h2 class="header-subtitle text-left">Featured work</h2>
 ```
+
 REQUIRED
 This h2 should be wrapped in a row and in a col element to properly follow the Bootstrap grid.
-
 
 ```html
 62        </header>
@@ -710,6 +844,7 @@ This h2 should be wrapped in a row and in a col element to properly follow the B
 64          <article class="col-sm-4">
 65            <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
 ```
+
 SUGGESTION
 When building responsive webpages it's normal to provide different images and resolutions for different screen sizes.
 In order to deal with these images you can use three things:
@@ -720,13 +855,13 @@ In order to deal with these images you can use three things:
 
 Please take a look at [this](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/) page, there are a lot of examples and it's very well explained how you can do that :smile:
 
-
-#### *css/portfolio.css:*
+#### _css/portfolio.css:_
 
 ```css
 65  .header-logo {
 66  width: 250px;
 ```
+
 SUGGESTION
 Indentation is off here.
 
@@ -734,6 +869,7 @@ Indentation is off here.
 78  .header-logo {
 79  max-width: 200px;
 ```
+
 SUGGESTION
 Indentation is off here.
 
@@ -752,19 +888,19 @@ Indentation is off here.
 91}
 92​
 ```
+
 AWESOME
 If I may suggest, please read [this](https://hackhands.com/70-Expert-Ideas-For-Better-CSS-Coding/) post regarding CSS tips. It’s really helpful!
 
-
 ## Third submission
+
 [(Back to TOC)](#table-of-contents)
 
 ### Response to reviewer
 
 Hi Fernando! Thanks very much for your feedback on my project. I'm glad that I'm making positive progress. I have pushed the revisions to my GitHub repository, and summarized them below:
 
-
-#### *index.html:*
+#### _index.html:_
 
 - Separate jumbotron div from container div.
 - Wrap "Featured work" h2 header in row and col to follow Bootstrap grid.
@@ -773,20 +909,17 @@ Hi Fernando! Thanks very much for your feedback on my project. I'm glad that I'm
   - I don't need to save multiple versions of the images for use with `srcset` for this website, because the file sizes are small and I'm only resizing them ~100px.
   - Thank you for your suggestion, and I will keep it in mind for the future.
 
-
-#### *css/portfolio.css:*
+#### _css/portfolio.css:_
 
 - Correct indentation issues.
 
-I simplified the repository name to *udacity*, so the GitHub Pages site is now at https://br3ndonland.github.io/udacity/.
-
+I simplified the repository name to _udacity_, so the GitHub Pages site is now at https://br3ndonland.github.io/udacity/.
 
 ### Full list of changes for Git commit
 
 **Add code review changes and redesign mobile-first:** I initially had to design the site desktop-first and then scale content down for mobile devices, because I was given a mockup of a desktop site. I revised the website code based on a mobile device, scaling up for larger sizes.
 
-
-#### *footer.html, header.html, index.html:*
+#### _footer.html, header.html, index.html:_
 
 - Align header responsively:
   - Center align header by default.
@@ -801,26 +934,22 @@ I simplified the repository name to *udacity*, so the GitHub Pages site is now a
   - Instead of a button group, I created a Bootstrap dropdown menu and incorporated the links into the dropdown.
 - Restructure footer links into Bootstrap nav as Font Awesome icons. Enclose theme toggle button in `a` element to align with icons.
 
-
-#### *portfolio.css*
+#### _portfolio.css_
 
 - Correct indentation issues.
 - Set size characteristics for mobile, and re-do media queries for `max-width` instead of `min-width`
 - Enlarge paragraph `p` and list `ul` text to improve visibility on high-resolution mobile devices like the Google Pixel XL.
 - Set dark theme as default.
 
-
-#### *portfolio.js*
+#### _portfolio.js_
 
 - Now that dark theme is default, use jQuery to toggle light theme.
 
-
-#### *pages*
+#### _pages_
 
 - Move "Portfolio website construction methods and notes" to /methods.
 - Create "About" page introducing myself and summarizing my work with Udacity.
-- Change `baseurl` to "/udacity" in *_config.yml.*
-
+- Change `baseurl` to "/udacity" in _\_config.yml._
 
 ### Summary from reviewer
 
@@ -830,24 +959,20 @@ I will keep things short this time :smile:
 
 Congratulations on finishing this project! :thumbsup:
 
-
 ### Project review
 
 No changes.
 
-
 ### Code review
 
-#### *index.html:*
+#### _index.html:_
 
 AWESOME
 Excellent job with Bootstrap! :star:
 
-
-#### *portfolio.css*
+#### _portfolio.css_
 
 AWESOME
 Thanks for adding my suggestions :smile:
-
 
 [(Back to TOC)](#table-of-contents)
