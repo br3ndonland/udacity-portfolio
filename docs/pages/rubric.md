@@ -22,19 +22,18 @@ br3ndonland
 - [Changelog]({{ 'changelog/' | relative_url }})
 - [GitHub](https://github.com/br3ndonland/udacity)
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [Table of Contents](#table-of-contents)
 - [Udacity Project Overview](#udacity-project-overview)
-  - [_Why this project?_](#why-this-project)
-  - [_What will I learn?_](#what-will-i-learn)
-  - [_Why is this important to my career?_](#why-is-this-important-to-my-career)
-  - [_Note_](#note)
+  - [_Why this project?_](#_why-this-project_)
+  - [_What will I learn?_](#_what-will-i-learn_)
+  - [_Why is this important to my career?_](#_why-is-this-important-to-my-career_)
+  - [_Note_](#_note_)
 - [Udacity Project Details](#udacity-project-details)
-  - [_How do I complete this project?_](#how-do-i-complete-this-project)
-  - [_Instructions:_](#instructions)
-  - [_Additional resources_](#additional-resources)
-  - [_Supporting materials_](#supporting-materials)
+  - [_How do I complete this project?_](#_how-do-i-complete-this-project_)
+  - [_Instructions:_](#_instructions_)
+  - [_Additional resources_](#_additional-resources_)
+  - [_Supporting materials_](#_supporting-materials_)
 - [Udacity Rubric](#udacity-rubric)
 - [Submission](#submission)
 
@@ -46,7 +45,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
 ### _Why this project?_
 
-\*_The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!_- You need a professional portfolio to show off your skills.
+_The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!_- You need a professional portfolio to show off your skills.
 
 In this project you’ll build a great looking portfolio where you can show off images, descriptions and links to all of your projects. You'll do so by writing code that conforms to the [Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/).
 

@@ -22,9 +22,8 @@ br3ndonland
 - [Changelog]({{ 'changelog/' | relative_url }})
 - [GitHub](https://github.com/br3ndonland/udacity)
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [Table of Contents](#table-of-contents)
 - [Summary](#summary)
 - [Development environment](#development-environment)
 - [Bootstrap](#bootstrap)

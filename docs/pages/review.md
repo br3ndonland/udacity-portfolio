@@ -22,9 +22,8 @@ br3ndonland
 - [Changelog]({{ 'changelog/' | relative_url }})
 - [GitHub](https://github.com/br3ndonland/udacity)
 
-## Table of contents
+## Table of Contents <!-- omit in toc -->
 
-- [Table of contents](#table-of-contents)
 - [First submission](#first-submission)
   - [Summary from me](#summary-from-me)
   - [Summary from reviewer](#summary-from-reviewer)
@@ -32,21 +31,21 @@ br3ndonland
   - [Code review](#code-review)
 - [Second submission](#second-submission)
   - [Response to reviewer](#response-to-reviewer)
-  - [Summary from reviewer](#summary-from-reviewer)
-  - [Project review](#project-review)
-  - [Code review](#code-review)
+  - [Summary from reviewer](#summary-from-reviewer-1)
+  - [Project review](#project-review-1)
+  - [Code review](#code-review-1)
 - [Third submission](#third-submission)
-  - [Response to reviewer](#response-to-reviewer)
+  - [Response to reviewer](#response-to-reviewer-1)
   - [Full list of changes for Git commit](#full-list-of-changes-for-git-commit)
-  - [Summary from reviewer](#summary-from-reviewer)
-  - [Project review](#project-review)
-  - [Code review](#code-review)
+  - [Summary from reviewer](#summary-from-reviewer-2)
+  - [Project review](#project-review-2)
+  - [Code review](#code-review-2)
 
 ## First submission
 
 ### Summary from me
 
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage _index.html_, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created \*portfolio.css- for additional custom styling.
+I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage _index.html_, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created _portfolio.css_ for additional custom styling.
 
 I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
 

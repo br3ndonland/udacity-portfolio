@@ -6,9 +6,8 @@ permalink: /about/
 
 # About me
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [Table of Contents](#table-of-contents)
 - [My journey](#my-journey)
 - [Custom computing curriculum](#custom-computing-curriculum)
 - [Udacity Full Stack Web Developer Nanodegree program](#udacity-full-stack-web-developer-nanodegree-program)
