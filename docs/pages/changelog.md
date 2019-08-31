@@ -8,6 +8,13 @@ permalink: /changelog/
 
 Changes after completing Udacity project, in reverse chronological order. All changes have been committed with Git and pushed to GitHub.
 
+## Format with Prettier and Markdown All In One
+
+Date: 20190830
+
+- Autoformat with [Prettier](https://prettier.io/) d944638d0ced9d92d6754565947cf94002d27d9e
+- Omit "Table of Contents" from TOC headers 8309613e57b64625cef678e8a09cfb121177a91a
+
 ## Lint and reformat Markdown with vscode
 
 Date: 20180406
