@@ -262,7 +262,8 @@ Nexus
 - CSS:
 
   ```css
-  /- Dark theme */ .theme-dark {
+  /* Dark theme */
+  .theme-dark {
     background-color: #2d3c49;
     color: #ddd;
   }
