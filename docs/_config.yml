@@ -6,7 +6,7 @@ url: "https://br3ndonland.github.io" # the base hostname & protocol for your sit
 baseurl: "/udacity" # the subpath of your site, e.g. /blog
 github_username: br3ndonland
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
