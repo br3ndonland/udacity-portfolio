@@ -1,9 +1,9 @@
-title: Brendon Smith | Udacity
+title: Brendon Smith | Udacity portfolio
 email: br3ndonland@protonmail.com
 description: >- # ignore newlines until "baseurl:"
   GitHub Pages Jekyll website for Udacity code on GitHub
 url: "https://br3ndonland.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/udacity" # the subpath of your site, e.g. /blog
+baseurl: "/udacity-portfolio" # the subpath of your site, e.g. /blog
 github_username: br3ndonland
 plugins:
   # - jekyll-feed
