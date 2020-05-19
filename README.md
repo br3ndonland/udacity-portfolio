@@ -38,3 +38,13 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - _portfolio.js_: jQuery JavaScript for the webpage
 - _index.html_: Main webpage. A modified version of the page is stored as _docs/index.html_ for the GitHub Pages website.
 - _README.md_: concise description of the repository for GitHub
+
+## Running the Jekyll site
+
+The Udacity project only requires a simple webpage, which is at _[index.html](./index.html)_. I also made a full GitHub Pages website using [Jekyll](https://jekyllrb.com/), in the _docs/_ directory. To run the Jekyll site:
+
+- [Clone](https://help.github.com/en/articles/cloning-a-repository) (or [fork](https://help.github.com/en/articles/about-forks) then clone) this repo.
+- Install Ruby v2.6+ as explained in the [Jekyll docs](https://jekyllrb.com/docs/installation/) for your operating system. Bundler should already be installed along with Ruby.
+- Install the site and generate [Gemfile.lock](https://jekyllrb.com/docs/ruby-101/#gemfile): `bundle install --path vendor/bundle`. This installs Ruby gems to _./vendor/bundle_, which avoids having to write to the system RubyGems directory.
+- Serve the site: `bundle exec jekyll serve`
+- View the site in a browser at [localhost:4000](http://localhost:4000).
